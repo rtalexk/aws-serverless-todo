@@ -1,0 +1,29 @@
+.TodoNew {
+  display: flex;
+  padding: 32px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+.TodoNew .Text {
+  width: 240px;
+}
+
+.TodoNew .Text input {
+  font-size: 1.4rem;
+  width: 100%;
+  padding: 8px 16px;
+}
+
+.TodoNew button {
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 8px 16px;
+  width: 64px;
+  margin-left: 12px;
+  border-radius: 4px;
+}
+
+.TodoNew button:disabled {
+  cursor: no-drop;
+}

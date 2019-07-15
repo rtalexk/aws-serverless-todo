@@ -1,0 +1,56 @@
+.TodoList {
+  position: relative;
+  padding: 64px 32px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.TodoList .Logout {
+  position: absolute;
+  right: 32px;
+  top: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.TodoList .Error {
+  margin-top: 16px;
+  color: red;
+  font-size: 1.4rem;
+}
+
+.TodoList .List {
+  margin-top: 16px;
+  border: 1px solid #eee;
+}
+
+.TodoList .List .Item {
+  height: 42px;
+  padding: 0 16px;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.TodoList .List .Item:nth-child(2n + 0) {
+  background-color: #f0f0f0;
+}
+
+.TodoList .List .Item:hover {
+  background-color: #e0e0e0;
+}
+
+.TodoList .List .Item input[type="checkbox"] {
+  cursor: pointer;
+  margin: 0;
+}
+
+.TodoList .List .Item .Text {
+  margin-left: 12px;
+}
+
+.TodoList .List .Item .Text.Completed {
+  text-decoration: line-through;
+}
